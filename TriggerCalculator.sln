@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TriggerCalculator", "TriggerCalculator", "{BC8F2622-DEAA-4A67-9F64-1C5389ACCCFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriggerCalculator", "TriggerCalculator\TriggerCalculator\TriggerCalculator.csproj", "{2DFDA03F-12EA-44D2-B892-84781A600E9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriggerCalculator.Activities", "TriggerCalculator\TriggerCalculator.Activities\TriggerCalculator.Activities.csproj", "{83738718-7541-4E0E-AE7F-B16FD8C28A4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriggerCalculator.Activities.Design", "TriggerCalculator\TriggerCalculator.Activities.Design\TriggerCalculator.Activities.Design.csproj", "{2B65AC1C-FBA7-4174-A482-3794369A14A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{BC756874-A35E-4280-8AD3-8F40DA70EB77}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities", "Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.shproj", "{4546856D-EA50-45C6-9419-EEEACB5A80AA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities.Design", "Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.shproj", "{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DFDA03F-12EA-44D2-B892-84781A600E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DFDA03F-12EA-44D2-B892-84781A600E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DFDA03F-12EA-44D2-B892-84781A600E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DFDA03F-12EA-44D2-B892-84781A600E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83738718-7541-4E0E-AE7F-B16FD8C28A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83738718-7541-4E0E-AE7F-B16FD8C28A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83738718-7541-4E0E-AE7F-B16FD8C28A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83738718-7541-4E0E-AE7F-B16FD8C28A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B65AC1C-FBA7-4174-A482-3794369A14A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B65AC1C-FBA7-4174-A482-3794369A14A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B65AC1C-FBA7-4174-A482-3794369A14A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B65AC1C-FBA7-4174-A482-3794369A14A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2DFDA03F-12EA-44D2-B892-84781A600E9B} = {BC8F2622-DEAA-4A67-9F64-1C5389ACCCFB}
+		{83738718-7541-4E0E-AE7F-B16FD8C28A4F} = {BC8F2622-DEAA-4A67-9F64-1C5389ACCCFB}
+		{2B65AC1C-FBA7-4174-A482-3794369A14A7} = {BC8F2622-DEAA-4A67-9F64-1C5389ACCCFB}
+		{4546856D-EA50-45C6-9419-EEEACB5A80AA} = {BC756874-A35E-4280-8AD3-8F40DA70EB77}
+		{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25} = {BC756874-A35E-4280-8AD3-8F40DA70EB77}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2C9B68F-AA9A-4625-A46F-518DCD2BAC91}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{2b65ac1c-fba7-4174-a482-3794369a14a7}*SharedItemsImports = 5
+		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{4546856d-ea50-45c6-9419-eeeacb5a80aa}*SharedItemsImports = 13
+		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{83738718-7541-4e0e-ae7f-b16fd8c28a4f}*SharedItemsImports = 5
+		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{df9c43f0-add3-4fbf-995e-84b92f9cbf25}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
