@@ -24,7 +24,7 @@ IsRunnable : Runnable status of process
 This activities also needs to orchestrator triggers. But attention is needed to it. For example, If you set DurationType as DurationType.Hour then you must set orcestrator trigger as hourly or lower than it. When orchestrator triggers process then this activity checks process is proper for running and set IsRunnable variable. According the IsRunnable variable you can create if-else flow and run your sequence.</Description>
 	<Authors>Ceyda Eren</Authors>
 	<PackageTags>trigger, uipath, orchestrator, cron</PackageTags>
-	<PackageProjectUrl></PackageProjectUrl>
+	<PackageProjectUrl>https://github.com/ceyeren/TriggerCalculator.Activities</PackageProjectUrl>
     <PackageIconUrl>https://raw.githubusercontent.com/NuGet/Samples/master/PackageIconNuspecExample/icon.png</PackageIconUrl>
     <!--<PackageIcon>packageIcon.png</PackageIcon>--> <!--PackageIcon not yet supported in UiPath Studio-->
     <AssemblyVersion>1.0.0.2</AssemblyVersion>
@@ -34,10 +34,10 @@ This activities also needs to orchestrator triggers. But attention is needed to 
   </PropertyGroup>
   <!-- Package Versions -->
   <PropertyGroup Condition="'$(Configuration)' == 'Debug' AND '$(DesignTimeBuild)' != 'true'">
-    <PackageVersion>1.0.4</PackageVersion>
+    <PackageVersion>1.0.5</PackageVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">
-    <PackageVersion>1.0.4</PackageVersion>
+    <PackageVersion>1.0.5</PackageVersion>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Designers\TriggerCalculatorDesigner.xaml" />
